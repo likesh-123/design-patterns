@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe23ed6-aa12-4288-96fb-8d01fa17f5dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="efe23ed6-aa12-4288-96fb-8d01fa17f5dc" name="Changes" comment="refactor: Initial commit">
       <change afterPath="$PROJECT_DIR$/src/creational/singleton/eagerInitializedSingleton.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/creational/singleton/singleton.java" afterDir="false" />
     </list>
@@ -56,6 +49,30 @@
       <option name="presentableId" value="Default" />
       <updated>1720544862713</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactor: Initial commit">
+      <option name="closed" value="true" />
+      <created>1720547662498</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720547662498</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor: Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Initial commit" />
   </component>
 </project>
