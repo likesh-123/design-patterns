@@ -10,6 +10,6 @@ package creational.singleton;
 
  */
 
-public class singleton {
+public class Singleton {
 
 }
