@@ -11,6 +11,11 @@
 - Step 2 - Concrete adapters class - Create an adapter class that implements the adapter interface for each third-party library.
 - Step 3 - Adapt to the third-party library - Transform the request to the format that the original class expects and delegate the request to the original class. Similarly, transform the response to the format that the client expects and return the response to the client.
 
+Key Concepts
+- Target Interface: This is the interface that the client expects (e.g., PaymentProcessor).
+- Adaptee: The existing interfaces that need adapting (e.g., PayPalGateway, StripeGateway).
+- Adapter: The class that implements the target interface and translates calls to the adaptee interface.
+
 Explanation
 - Target Interface (PaymentProcessor): Defines the processPayment method that the client code expects to call.
 - Adaptee (PayPalGateway, StripeGateway): Existing classes that have specific methods for processing payments.

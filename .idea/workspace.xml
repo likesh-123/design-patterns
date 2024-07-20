@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe23ed6-aa12-4288-96fb-8d01fa17f5dc" name="Changes" comment="Implemented eagerInitializedSingleton">
-      <change afterPath="$PROJECT_DIR$/src/creational/singleton/StaticBlockSingleton.java" afterDir="false" />
+    <list default="true" id="efe23ed6-aa12-4288-96fb-8d01fa17f5dc" name="Changes" comment="Implemented Adapter">
+      <change afterPath="$PROJECT_DIR$/src/structural/decorator/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/decorator/CoffeeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/decorator/MilkDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/decorator/SimpleCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/decorator/SugarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/decorator/WhippedCreamDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/decorator/decorator.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/singleton/eagerInitializedSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/EagerInitializedSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/singleton/singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adapter/adapter.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/adapter.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -34,14 +41,110 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractFactoryMain.executor": "Run",
+    "Application.ECommerceApplication.executor": "Run",
+    "Application.FactoryMethodMain.executor": "Run",
+    "Application.PrototypeRegistryMain.executor": "Run",
+    "Application.SimpleFactoryMain.executor": "Run",
+    "Application.TestBuilderPattern.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.editor"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Markdown"
+    ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\structural\decorator" />
+      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\structural\adapter" />
+      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\creational\prototype" />
+      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src" />
+      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\creational\builder" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ECommerceApplication">
+    <configuration name="AbstractFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.factory.abstractFactory.AbstractFactoryMain" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.factory.abstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ECommerceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.adapter.ECommerceApplication" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryMethodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.factory.factoryMethod.FactoryMethodMain" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.factory.factoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrototypeRegistryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.prototype.PrototypeRegistryMain" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.factory.simpleFactory.SimpleFactoryMain" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.factory.simpleFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ECommerceApplication" />
+        <item itemvalue="Application.PrototypeRegistryMain" />
+        <item itemvalue="Application.AbstractFactoryMain" />
+        <item itemvalue="Application.FactoryMethodMain" />
+        <item itemvalue="Application.SimpleFactoryMain" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +170,87 @@
       <option name="project" value="LOCAL" />
       <updated>1720547812050</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implemented EagerInitializedSingleton">
+      <option name="closed" value="true" />
+      <created>1720722352900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720722352900</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implemented EagerInitializedSingleton">
+      <option name="closed" value="true" />
+      <created>1720723363464</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720723363464</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implemented EagerInitializedSingleton">
+      <option name="closed" value="true" />
+      <created>1720724406015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720724406015</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implemented builder design pattern">
+      <option name="closed" value="true" />
+      <created>1720756710587</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720756710587</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implemented simpleFactory">
+      <option name="closed" value="true" />
+      <created>1721453916899</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721453916899</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implemented factoryMethod">
+      <option name="closed" value="true" />
+      <created>1721453945930</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721453945930</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implemented abstractFactory">
+      <option name="closed" value="true" />
+      <created>1721460020794</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721460020794</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Created md files for Singleton, Builder, Factory, Prototype">
+      <option name="closed" value="true" />
+      <created>1721460098973</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721460098973</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Implemented PrototypeRegistry">
+      <option name="closed" value="true" />
+      <created>1721460133840</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721460133840</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Implemented Adapter">
+      <option name="closed" value="true" />
+      <created>1721464675815</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721464675815</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +267,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor: Initial commit" />
     <MESSAGE value="Implemented eagerInitializedSingleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented eagerInitializedSingleton" />
+    <MESSAGE value="Implemented EagerInitializedSingleton" />
+    <MESSAGE value="Implemented builder design pattern" />
+    <MESSAGE value="Implemented simpleFactory" />
+    <MESSAGE value="Implemented factoryMethod" />
+    <MESSAGE value="Implemented abstractFactory" />
+    <MESSAGE value="Created md files for Singleton, Builder, Factory, Prototype" />
+    <MESSAGE value="Implemented PrototypeRegistry" />
+    <MESSAGE value="Implemented Adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Adapter" />
   </component>
 </project>
