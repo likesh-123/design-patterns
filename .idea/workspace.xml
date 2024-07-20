@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe23ed6-aa12-4288-96fb-8d01fa17f5dc" name="Changes" comment="Implemented Adapter">
-      <change afterPath="$PROJECT_DIR$/src/structural/decorator/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/decorator/CoffeeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/decorator/MilkDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/decorator/SimpleCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/decorator/SugarDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/decorator/WhippedCreamDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/decorator/decorator.md" afterDir="false" />
+    <list default="true" id="efe23ed6-aa12-4288-96fb-8d01fa17f5dc" name="Changes" comment="Added one more decorator for the decorator design pattern">
+      <change afterPath="$PROJECT_DIR$/src/structural/flyweight/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/flyweight/CharacterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/flyweight/ConcreteCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/flyweight/FlyweightPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/flyweight/flyweight.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/adapter/adapter.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/adapter.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,8 +41,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AbstractFactoryMain.executor": "Run",
+    "Application.CoffeeShop.executor": "Run",
     "Application.ECommerceApplication.executor": "Run",
     "Application.FactoryMethodMain.executor": "Run",
+    "Application.FlyweightPatternDemo.executor": "Run",
     "Application.PrototypeRegistryMain.executor": "Run",
     "Application.SimpleFactoryMain.executor": "Run",
     "Application.TestBuilderPattern.executor": "Run",
@@ -62,20 +61,33 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\structural\flyweight" />
       <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\structural\decorator" />
       <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\structural\adapter" />
       <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\creational\prototype" />
       <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src" />
-      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\creational\builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ECommerceApplication">
+  <component name="RunManager" selected="Application.FlyweightPatternDemo">
     <configuration name="AbstractFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.factory.abstractFactory.AbstractFactoryMain" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="creational.factory.abstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoffeeShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.decorator.CoffeeShop" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMethodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.factory.factoryMethod.FactoryMethodMain" />
+    <configuration name="FlyweightPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.flyweight.FlyweightPatternDemo" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.factory.factoryMethod.*" />
+          <option name="PATTERN" value="structural.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,26 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.factory.simpleFactory.SimpleFactoryMain" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.factory.simpleFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlyweightPatternDemo" />
+        <item itemvalue="Application.CoffeeShop" />
         <item itemvalue="Application.ECommerceApplication" />
         <item itemvalue="Application.PrototypeRegistryMain" />
         <item itemvalue="Application.AbstractFactoryMain" />
-        <item itemvalue="Application.FactoryMethodMain" />
-        <item itemvalue="Application.SimpleFactoryMain" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +249,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721464675815</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Implemented Decorator Design Pattern">
+      <option name="closed" value="true" />
+      <created>1721468595995</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721468595995</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added one more decorator for the decorator design pattern">
+      <option name="closed" value="true" />
+      <created>1721475659502</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1721475659502</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +290,8 @@
     <MESSAGE value="Created md files for Singleton, Builder, Factory, Prototype" />
     <MESSAGE value="Implemented PrototypeRegistry" />
     <MESSAGE value="Implemented Adapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Adapter" />
+    <MESSAGE value="Implemented Decorator Design Pattern" />
+    <MESSAGE value="Added one more decorator for the decorator design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added one more decorator for the decorator design pattern" />
   </component>
 </project>
