@@ -17,6 +17,10 @@ public class CoffeeShop {
         coffee = new WhippedCreamDecorator(coffee);
         System.out.println(coffee.getDescription() + " $" + coffee.getCost());
         // Output: Simple Coffee, Milk, Sugar, Whipped Cream $9.0
+
+        coffee = new VanillaDecorator(coffee);
+        System.out.println(coffee.getDescription() + " $" + coffee.getCost());
+        // Output: Simple Coffee, Milk, Sugar, Whipped Cream, Vanilla $10.0
     }
 }
 
