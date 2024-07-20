@@ -1,6 +1,11 @@
 package creational.builder;
 
-import javax.sound.midi.SysexMessage;
+/*
+
+We can create the ComputerBuilder class in the Computer class only by making it private so that only the Computer class
+can use the benefit of ComputerBuilder
+
+ */
 
 public class Computer {
     //required parameters
