@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe23ed6-aa12-4288-96fb-8d01fa17f5dc" name="Changes" comment="Implemented facade design pattern">
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Bank/BankTransferPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Bank/BitcoinPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Bank/CreditCardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Bank/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Bank/PayPalPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Bank/PaymentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Bank/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Bank/StrategyPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Map/DrivingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Map/EcoFriendlyRoute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Map/FastestRoute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Map/MapApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Map/ScenicRoute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Map/ShortestRoute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Map/StrategyPatternDemo.java" afterDir="false" />
+    <list default="true" id="efe23ed6-aa12-4288-96fb-8d01fa17f5dc" name="Changes" comment="Implemented Strategy Design Pattern using Bank and Map example">
+      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/CurrentConditionsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/ForecastDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/HeatIndexDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/StatisticsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/WeatherStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/observer/observer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Bank/strategy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioural/strategy/Map/strategy.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,53 +44,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AbstractFactoryMain.executor": "Run",
-    "Application.CoffeeShop.executor": "Run",
-    "Application.ECommerceApplication.executor": "Run",
-    "Application.FacadePatternDemo.executor": "Run",
-    "Application.FactoryMethodMain.executor": "Run",
-    "Application.FlyweightPatternDemo.executor": "Run",
-    "Application.PrototypeRegistryMain.executor": "Run",
-    "Application.SimpleFactoryMain.executor": "Run",
-    "Application.StrategyPatternDemo.executor": "Run",
-    "Application.TestBuilderPattern.executor": "Run",
-    "Application.behavioural.strategy.Map.StrategyPatternDemo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbstractFactoryMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoffeeShop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ECommerceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FacadePatternDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FactoryMethodMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlyweightPatternDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrototypeRegistryMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleFactoryMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StrategyPatternDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBuilderPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.behavioural.strategy.Map.StrategyPatternDemo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Markdown"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Markdown&quot;,
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\behavioural\observer" />
+      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\behavioural\strategy\Map" />
+      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\behavioural\strategy\Bank" />
       <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\structural\facade" />
       <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\structural\flyweight" />
-      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\structural\decorator" />
-      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\structural\adapter" />
-      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\creational\prototype" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.behavioural.strategy.Map.StrategyPatternDemo">
-    <configuration name="CoffeeShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.decorator.CoffeeShop" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural.decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WeatherStation">
     <configuration name="FacadePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.facade.FacadePatternDemo" />
       <module name="Design Patterns" />
@@ -134,6 +118,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioural.observer.WeatherStation" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioural.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="behavioural.strategy.Map.StrategyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioural.strategy.Map.StrategyPatternDemo" />
       <module name="Design Patterns" />
@@ -149,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.behavioural.strategy.Map.StrategyPatternDemo" />
         <item itemvalue="Application.StrategyPatternDemo" />
         <item itemvalue="Application.FacadePatternDemo" />
         <item itemvalue="Application.FlyweightPatternDemo" />
-        <item itemvalue="Application.CoffeeShop" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721553911367</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Implemented Strategy Design Pattern using Bank and Map example">
+      <option name="closed" value="true" />
+      <created>1721558173205</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721558173205</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,6 +328,7 @@
     <MESSAGE value="Added one more decorator for the decorator design pattern" />
     <MESSAGE value="Implemented flyweight design pattern" />
     <MESSAGE value="Implemented facade design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented facade design pattern" />
+    <MESSAGE value="Implemented Strategy Design Pattern using Bank and Map example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Strategy Design Pattern using Bank and Map example" />
   </component>
 </project>
