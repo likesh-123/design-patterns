@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe23ed6-aa12-4288-96fb-8d01fa17f5dc" name="Changes" comment="Added one more decorator for the decorator design pattern">
-      <change afterPath="$PROJECT_DIR$/src/structural/flyweight/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/flyweight/CharacterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/flyweight/ConcreteCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/flyweight/FlyweightPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/flyweight/flyweight.md" afterDir="false" />
+    <list default="true" id="efe23ed6-aa12-4288-96fb-8d01fa17f5dc" name="Changes" comment="Implemented flyweight design pattern">
+      <change afterPath="$PROJECT_DIR$/src/structural/facade/facade.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,50 +34,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AbstractFactoryMain.executor": "Run",
-    "Application.CoffeeShop.executor": "Run",
-    "Application.ECommerceApplication.executor": "Run",
-    "Application.FactoryMethodMain.executor": "Run",
-    "Application.FlyweightPatternDemo.executor": "Run",
-    "Application.PrototypeRegistryMain.executor": "Run",
-    "Application.SimpleFactoryMain.executor": "Run",
-    "Application.TestBuilderPattern.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbstractFactoryMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoffeeShop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ECommerceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FactoryMethodMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlyweightPatternDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrototypeRegistryMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleFactoryMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBuilderPattern.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Markdown"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Markdown&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\structural\facade" />
       <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\structural\flyweight" />
       <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\structural\decorator" />
       <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\structural\adapter" />
       <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src\creational\prototype" />
-      <recent name="D:\Videos\Java\Practice\LLD\Design Patterns\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlyweightPatternDemo">
-    <configuration name="AbstractFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.factory.abstractFactory.AbstractFactoryMain" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.factory.abstractFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FacadePatternDemo">
     <configuration name="CoffeeShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.decorator.CoffeeShop" />
       <module name="Design Patterns" />
@@ -101,6 +84,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="structural.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FacadePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.facade.FacadePatternDemo" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FacadePatternDemo" />
         <item itemvalue="Application.FlyweightPatternDemo" />
         <item itemvalue="Application.CoffeeShop" />
         <item itemvalue="Application.ECommerceApplication" />
         <item itemvalue="Application.PrototypeRegistryMain" />
-        <item itemvalue="Application.AbstractFactoryMain" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721475659502</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Implemented flyweight design pattern">
+      <option name="closed" value="true" />
+      <created>1721480082160</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721480082160</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +296,7 @@
     <MESSAGE value="Implemented Adapter" />
     <MESSAGE value="Implemented Decorator Design Pattern" />
     <MESSAGE value="Added one more decorator for the decorator design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added one more decorator for the decorator design pattern" />
+    <MESSAGE value="Implemented flyweight design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented flyweight design pattern" />
   </component>
 </project>
